@@ -1,0 +1,371 @@
+.navbar {
+  animation: nav-animation 2s linear;
+  -webkit-animation: nav-animation 2s linear;
+}
+@keyframes nav-animation {
+  from {
+    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+  }
+}
+
+/* Navbar animition end */
+
+/* Banner Animition Start */
+#banner .banner_left {
+  animation: left-right 4s linear;
+  -webkit-animation: left-right 4s linear;
+}
+@keyframes left-right {
+  from {
+    transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+
+.banner_right .rit_shape1 {
+  animation: pulsate-bck 1s ease-in-out infinite both;
+  -webkit-animation: pulsate-bck 1s ease-in-out infinite both;
+}
+.banner_right .rit_shape2 {
+  animation: pulsate-bck 2.5s ease-in-out infinite both;
+  -webkit-animation: pulsate-bck 2.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.banner_right .banner_right_bottomshape {
+  animation: rotedx 4s infinite linear;
+  -webkit-animation: rotedx 4s infinite linear;
+}
+@keyframes rotedx {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+.banner_right .banner_img {
+  animation: right-left 4s ease-in-out;
+  -webkit-animation: right-left 4s ease-in-out;
+}
+@keyframes right-left {
+  from {
+    transform: translateX(150px);
+    -webkit-transform: translateX(150px);
+    -moz-transform: translateX(150px);
+    -ms-transform: translateX(150px);
+    -o-transform: translateX(150px);
+  }
+  to {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+
+.banner_right .top_shape {
+  animation: bounce-left 2s infinite alternate both;
+  -webkit-animation: bounce-left 2s infinite alternate both;
+}
+@keyframes bounce-left {
+  from {
+    transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+    -moz-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+
+.banner_right .bottom_shape {
+  animation: pulse 1s infinite linear;
+  -webkit-animation: pulse 1s infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* Banner Animition End */
+
+/* ==========================================================================
+                                Enver Animation start
+   ========================================================================== */
+
+.enver_heading h2 {
+  animation: enver-heading 2s linear;
+  -webkit-animation: enver-heading 2s linear;
+}
+@keyframes enver-heading {
+  from {
+    transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+    -moz-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+
+.enver_pera {
+  animation: enver-pera 2s linear;
+  -webkit-animation: enver-pera 2s linear;
+}
+@keyframes enver-pera {
+  from {
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+
+.enver_playicn {
+  animation: play 4s infinite linear;
+  -webkit-animation: play 4s infinite alternate linear;
+}
+
+@keyframes play {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  40% {
+    transform: scale(0.9);
+    -webkit-transform: scale(1.5 1.5 1.5);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1.5 1.5 1.5);
+    -webkit-transform: scale(1.5 1.5 1.5);
+    -moz-transform: scale(1.5 1.5 1.5);
+    -ms-transform: scale(1.5 1.5 1.5);
+    -o-transform: scale(1.5 1.5 1.5);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+/* ==========================================================================
+                                Enver Animation End
+   ========================================================================== */
+
+/* ==========================================================================
+                                Service Animation start
+   ========================================================================== */
+.service_heading h2 {
+  animation: service 4s linear;
+  -webkit-animation: service 4s linear;
+}
+@keyframes service {
+  from {
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+  }
+}
+
+.service_heading .ser_shape1 {
+  animation: service-pulse 0.8s infinite linear;
+  -webkit-animation: service-pulse 0.8s infinite linear;
+}
+
+@keyframes service-pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.ser_bottomshape {
+  animation: rotedx 3s infinite linear;
+  -webkit-animation: rotedx 3s infinite linear;
+}
+
+.leftop_shape {
+  animation: rotedx 3s infinite linear;
+  -webkit-animation: rotedx 3s infinite linear;
+}
+
+.portfolio_item .right_shape .shape1 {
+  animation: pulsate-bck 1.5s ease-in-out infinite both;
+  -webkit-animation: pulsate-bck 1.5s ease-in-out infinite both;
+}
+.portfolio_items .shapebottom {
+  animation: bounce-left 2s infinite alternate both;
+  -webkit-animation: bounce-left 2s infinite alternate both;
+}
+/* ==========================================================================
+                                Service Animation End
+   ========================================================================== */
+
+/* ==========================================================================
+                                Portfolio Animation Start
+   ========================================================================== */
+
+.portfolio_item .header h2 {
+  animation: nav-animation 4s linear;
+  -webkit-animation: nav-animation 4s linear;
+}
+.portfolio_item .port_img1 {
+  animation: left-;
+  -webkit-animation: left-right 2s linear;
+}
+
+/* ==========================================================================
+                                Portfolio Animation End
+   ========================================================================== */
+/* ==========================================================================
+                                Contact Animation Start
+   ========================================================================== */
+.contact .shape .left-bottom .shape-one {
+  animation: pulsate-bck 1.5s ease-in-out infinite both;
+  -webkit-animation: pulsate-bck 1.5s ease-in-out infinite both;
+}
+.contact .shape .left-bottom .shape-two {
+  animation: pulsate-bck 2s ease-in-out infinite both;
+  -webkit-animation: pulsate-bck 2s ease-in-out infinite both;
+}
+.contact .shape .right-top {
+  animation: rotedx 4s infinite linear;
+  -webkit-animation: rotedx 4s infinite linear;
+}
+.footer {
+  animation: footer 1s linear;
+  -webkit-animation: footer 1s linear;
+}
+@keyframes footer {
+  from {
+    transform: translateY(80px);
+    -webkit-transform: translateY(80px);
+    -moz-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    -o-transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+  }
+}
+/* ==========================================================================
+                                Contact Animation End
+   ========================================================================== */
